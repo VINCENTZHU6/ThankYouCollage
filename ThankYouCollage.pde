@@ -85,7 +85,7 @@ void draw() {
   tint(255, riceSee);
   image(rice, mouseX - 140, mouseY - 25, 150, 100);
   quad(mouseX - 65, mouseY + 22, mouseX + 88, mouseY - 20, mouseX + 90, mouseY - 10, mouseX - 64, mouseY + 28);
-  if (mouseX > 500)
+  if (mouseX > 525)
   {
     chopSee = 0;
     riceSee = 0;
